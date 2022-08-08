@@ -4,7 +4,8 @@ print("sistema para calcular su IMC")
 peso = int(input("ingrese su peso en kilogramos: "))
 altura1 = int(input("ingrese su altura en centimetros: "))
 altura = altura1/100
-IMC = peso/(altura**2)
+IMC1 = peso/(altura**2)
+IMC = round(IMC1, 2)
 print(IMC)
 
 if IMC >= 0 and IMC <= 18.4 :
